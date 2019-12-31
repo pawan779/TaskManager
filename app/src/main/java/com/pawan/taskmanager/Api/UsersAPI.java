@@ -16,7 +16,7 @@ import retrofit2.http.Part;
 public interface UsersAPI {
     @POST("uers/signup")
     Call<SignupResponse> registerUser(@Body Users users);
-    
+
     @FormUrlEncoded
     @POST("users/login")
     Call<SignupResponse> checkUser(@Field("username") String username, @Field("password") String password);
