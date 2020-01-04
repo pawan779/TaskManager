@@ -2,11 +2,11 @@ package com.pawan.taskmanager.ServerResponse;
 
 public class SignupResponse {
     private String status;
-    private String toke;
+    private String token;
 
-    public SignupResponse(String status, String toke) {
+    public SignupResponse(String status, String token) {
         this.status = status;
-        this.toke = toke;
+        this.token = token;
     }
 
     public String getStatus() {
@@ -17,11 +17,11 @@ public class SignupResponse {
         this.status = status;
     }
 
-    public String getToke() {
-        return toke;
+    public String getToken() {
+        return token;
     }
 
-    public void setToke(String toke) {
-        this.toke = toke;
+    public void setToken(String token) {
+        this.token = token;
     }
 }

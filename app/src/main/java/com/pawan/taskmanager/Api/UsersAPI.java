@@ -23,5 +23,5 @@ public interface UsersAPI {
 
     @Multipart
     @POST("upload")
-    Call<ImageResponse> uploadImage(@Part MultipartBody img);
+    Call<ImageResponse> uploadImage(@Part MultipartBody.Part img);
 }
